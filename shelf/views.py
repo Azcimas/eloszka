@@ -1,0 +1,12 @@
+# coding: utf-8
+
+from django.shortcuts import render
+from django.views.generic import ListView, DetailView
+
+from .models import Author
+
+class AuthorListView(ListView):
+    model = Author
+
+class AuthroDetailView(DetailtView):
+    model = Author

@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block 'content' %}
+<div><a href = " {% url 'shelf:author-list' %}">Powrot do listy autorow</a></div>
+Profil Autora: {{object.last_name}} {{object.first_name}}
+
+{% endblock %}
