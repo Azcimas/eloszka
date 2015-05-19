@@ -8,5 +8,5 @@ from .models import Author
 class AuthorListView(ListView):
     model = Author
 
-class AuthroDetailView(DetailtView):
+class AuthorDetailView(DetailView):
     model = Author

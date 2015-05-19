@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'shelf',
+    'contact',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -100,10 +101,6 @@ USE_TZ = True #timezone
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates'),
-    )
 
 
 
